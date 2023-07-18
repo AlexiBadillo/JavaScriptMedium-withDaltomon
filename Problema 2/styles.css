@@ -1,0 +1,22 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  grid-auto-rows: 50px;
+}
+.grid-container .grid-item {
+  padding: 10px;
+  border: 1px solid #26a;
+  margin: 5px;
+}
+.boton-confirmar {
+  padding: 10px;
+  background-color: #48e;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
